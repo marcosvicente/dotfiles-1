@@ -13,9 +13,9 @@ if has("gui_running")
   set columns=190
 
   if has("gui_gtk2")
-    set guifont=Hack\ 12,Inconsolata\ 15,Monaco\ 12
+    set guifont=Hack\ 10,Inconsolata\ 12,Monaco\ 10
   else
-    set guifont=Hack\ 14,Inconsolata:h20,Monaco:h17
+    set guifont=Hack\ 10,Inconsolata:h18,Monaco:h12
   end
 else
   let g:CSApprox_loaded = 1
@@ -27,5 +27,5 @@ else
   end
 endif
 
-colorscheme gruvbox
+colorscheme gruvbox 
 set background=dark
