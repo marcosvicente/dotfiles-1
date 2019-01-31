@@ -8,3 +8,6 @@ endif
 if filereadable(expand("~/.vimrc.after"))
   source ~/.vimrc.after
 endif
+
+let g:yadr_disable_solarized_enhancements = 1
+colorscheme base16-twilight
