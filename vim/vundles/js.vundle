@@ -1,0 +1,3 @@
+Bundle 'pangloss/vim-javascript'
+Bundle 'mxw/vim-jsx'
+Bundle 'flowtype/vim-flow'
